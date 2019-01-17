@@ -1,0 +1,59 @@
+.main-people-content {
+    margin: 0 100px;
+}
+.people-left-content {
+    float:left;
+    width: 220px;
+    border-right: 1px solid #f3f3f3;
+}
+.people-right-content{
+    overflow: hidden;
+    margin-left: 240px;
+}
+.people-right-content h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+} 
+.people-right-content h4{
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+.people-content{
+    background: #f3f3f3;
+    display: flex;
+    margin-bottom: 22px;
+}
+.people-left-content .people-list li{
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.people-left-content .people-list  a:visited, a:link, a:active {
+    color: #333;
+}
+.people-left-content .people-list a:hover {
+    color: #fff;
+}
+.people-list li:hover{
+    background: #b00;
+}
+.people-info{
+    padding-top:34px;
+}
+.people-info td{
+    padding: 2px;
+}
+.people-info td:first-of-type{
+    width: 60px;
+}
+.people-info td:nth-of-type(2){
+    border-left: 2px solid #fff;
+}
+.people-img{
+    width:100px;
+    height: 130px;
+    padding: 10px;
+}
